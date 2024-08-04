@@ -1,0 +1,29 @@
+{
+  "database": "micpdb",
+  "tableList": [
+    {
+      "tableName": "ic_dd_card_code",
+      "insert": [
+        {"column": "tenant_id"},
+        {"column": "card_code"},
+        {"column": "card_acc_num"},
+        {"column": "rec_flag"},
+        {"column": "mainsub_type"},
+        {"column": "update_time"},
+        {"column": "fixid"}
+      ],
+      "update": [
+        {"column": "tenant_id"},
+        {"column": "card_code"},
+        {"column": "card_acc_num"},
+        {"column": "rec_flag"},
+        {"column": "mainsub_type"},
+        {"column": "update_time"},
+        {"column": "fixid"}
+      ],
+      "delete": []
+    }
+
+
+  ]
+}
